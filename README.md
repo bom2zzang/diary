@@ -14,9 +14,11 @@ src/main/resources
 $gradle eclipse
 ```
 ###웹프로젝트 배치
--webapp/index.html 작성
--톰캣서버구축
--웹프로젝트배치
--실행및테스트
+```
+webapp/index.html 작성
+톰캣서버구축
+웹프로젝트배치
+실행및테스트
+```
 
 ***
