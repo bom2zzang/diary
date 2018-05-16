@@ -1,5 +1,23 @@
 # diary
 
+
+mainpage
+mypage
+
+
+## src4
+```
+header footer 작성
+
+
+```
+
+## src3
+```
+회원게시판 crud 구현 
+```
+
+
 ## src2
 ### 스프링WebMVC준비
 ```
