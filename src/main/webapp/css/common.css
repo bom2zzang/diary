@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.container {
+	width: 680px;
+}
+
+footer {
+	text-align: center;
+	background-color: #FF0080;
+	color: white;
+}
+
+.toolbar {
+	margin: 3px 0px;
+}
+
+.searchbox {
+	display: inline-block;
+	float: right;
+}
+.inline {
+	display= inline-block;
+}
+
+body {
+	padding-top: 70px; 
+	}
+	
+
+/* 썸네일 */
+    .thumbnail{
+      background-color:gray;
+      margin:10px;
+      width:150px;
+      height:150px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    .thumbnail.round{
+      border-radius: 10%;
+    }
+    .thumbnail.circle{
+      border-radius: 100%;
+    }
+    

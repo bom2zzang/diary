@@ -12,6 +12,9 @@
 <link rel='stylesheet' href='../../css/common.css'>
 </head>
 <body>
+
+<jsp:include page="../header.jsp"/>
+
 <div class='container'>
 
 
