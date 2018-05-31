@@ -11,6 +11,7 @@
 <link rel='stylesheet' href='../../node_modules/bootstrap/dist/css/bootstrap.min.css'>
 <link rel='stylesheet' href='../../css/common.css'>
 </head>
+<jsp:include page="../header.jsp"/>
 <body>
 <div class='container'>
 

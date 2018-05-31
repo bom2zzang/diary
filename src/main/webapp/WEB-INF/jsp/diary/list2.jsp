@@ -33,6 +33,7 @@
       }
     </style>
 </head>
+<jsp:include page="../header.jsp"/>
 <body>
 <div class='container'>
 
