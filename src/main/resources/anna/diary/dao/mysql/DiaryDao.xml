@@ -38,6 +38,15 @@
         m.m_no as m_no,
         m.name as m_name
        from diary as d join member as m on d.m_no=m.m_no
+       
+        <if test="words != null">
+            <where>
+                <foreach collection="words" item="word">
+                    or title like '%${word}%'
+                </foreach>
+            </where>
+        </if>
+                
     </select>
     
     <select id="mypage" resultMap="diaryMap" parameterType="int">
