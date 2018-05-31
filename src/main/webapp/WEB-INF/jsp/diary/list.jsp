@@ -18,6 +18,8 @@
 
 <h1>다이어리목록</h1>
 
+<jsp:include page="../listToolbar.jsp"/>
+
 
 <table class='table table-hover'>
 <thead>
@@ -31,11 +33,11 @@
         <tr>
         <td>${diary.no}</td>
  <td><img class="thumbnail" src="${contextPath}/download/${diary.photo}"/></td>
-  <td><a data-toggle="modal" href='view/${diary.no}'>${diary.title}</a></td>
+  <td><a data-toggle="modal" href='${diary.no}'>${diary.title}</a></td>
       <!-- 
          <td><a data-toggle="modal" href="../diary/view/${diary.no}/#viewModal">${diary.title}</a></td>
        -->
-         <td><a href='../diary/${diary.writer.m_no}'>${diary.writer.name}</a></td>
+         <td><a href='../diary/${diary.writer.email}'>${diary.writer.name}</a></td>
         <td>${diary.date}</td>
         </tr>
 </c:forEach>
