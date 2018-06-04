@@ -18,7 +18,8 @@
 <h1>회원 상세 정보</h1>
 
 <c:if test="${not empty member}">
-        <form action='update' method='post'>
+        <form action='update' method='post' enctype='multipart/form-data'>
+            
         <div class='form-group row'>
         <label for='m_no' class='col-sm-2 col-form-label'>번호</label>
         <div class='col-sm-10'>
@@ -46,6 +47,33 @@
         <input class='form-control' id='password' type='password' name='password'>
         </div>
         </div>
+        
+         <div class='form-group row'>
+        <label for='line' class='col-sm-2 col-form-label'>한줄</label>
+        <div class='col-sm-10'>
+        <input class='form-control' id='line' type='text' 
+                name='line' value='${member.line}'>
+        </div>
+        </div>
+        
+                                    <div class='form-group row'>
+            <label for='file' class='col-sm-2 col-form-label'>사진</label>
+            <div class='col-sm-10'>
+            <input type="file" class="form-control-file" id="file" name="file">
+            </div>
+            </div>
+            
+ 
+                
+                <div class='form-group row'>
+                    <label for='birth' class='col-sm-2 col-form-label'>생일</label>
+                    <div class='col-sm-10'>
+                        <input class='form-control' id='birth' type='date'
+                            name='birth' value='${member.birth}'>
+                    </div>
+                </div>
+
+        
         <div class='form-group row'>
         <div class='col-sm-10'>
         <button class='btn btn-primary btn-sm'>변경</button>

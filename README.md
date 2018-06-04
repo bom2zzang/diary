@@ -5,10 +5,34 @@ mainpage
 mypage
 댓글
 api추가
+
+
+##src6(..ing)
+```
+***member 업그레이드
+
+db추가
+    
+alter table member
+  add column m_photo varchar(255);
+
+alter table member
+  add column birth datetime;
+
+alter table member
+  add column line varchar(255);
+    
+수정form 
+
+왜 사진이 안 들어가는 건뒈..? 고치기 ㅠ
+
+```
+
+
 ## src5
 
 ```
-검색기능 추가
+다이어리 검색기능 추가(제목)
     
 ```
     

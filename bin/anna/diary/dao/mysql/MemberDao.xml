@@ -33,6 +33,9 @@
     
     <select id="findByNo" resultMap="memberMap" parameterType="int">
         <include refid="select1"/>
+        ,m_photo
+        ,line
+        ,birth
         from member
         where m_no=#{value}
     </select>
@@ -49,11 +52,14 @@
         values(#{name},#{email},password(#{password}))
     </insert>
 
-    <update id="update" parameterType="member">
-        update member set 
+    <update id="update"  parameterType="member">
+                update member set 
             name=#{name},
             email=#{email},
-            pwd=password(#{password})
+            pwd=password(#{password}), 
+            m_photo=#{m_photo}, 
+            line=#{line}, 
+            birth=#{birth}
         where m_no=#{m_no}
     </update>
 
