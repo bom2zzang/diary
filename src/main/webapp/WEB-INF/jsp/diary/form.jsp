@@ -7,8 +7,8 @@
 <link rel='stylesheet' href='../../node_modules/bootstrap/dist/css/bootstrap.min.css'>
 <link rel='stylesheet' href='../../css/common.css'>
 </head>
-<jsp:include page="../header.jsp"/>
 <body>
+<jsp:include page="../header.jsp"/>
 
 <div class='container'>
     <h1>다이어리 작성</h1>
@@ -55,6 +55,8 @@
             </div>
         </form>
 </div>
+
+<jsp:include page="../jslib.jsp"/>
 
 </body>
 </html>

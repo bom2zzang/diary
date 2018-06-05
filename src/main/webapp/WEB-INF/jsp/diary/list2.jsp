@@ -33,8 +33,8 @@
       }
     </style>
 </head>
-<jsp:include page="../header.jsp"/>
 <body>
+<jsp:include page="../header.jsp"/>
 <div class='container'>
 
 
@@ -64,6 +64,8 @@
 
 </div>
 
+
+<jsp:include page="../jslib.jsp"/>
 
 
 </body>

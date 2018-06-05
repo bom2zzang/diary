@@ -6,8 +6,15 @@ mypage
 댓글
 api추가
 
+##src7(ing)
+```
+intro페이지 추가
+ui작업 
 
-##src6(..ing)
+```
+
+
+##src6
 ```
 ***member 업그레이드
 
