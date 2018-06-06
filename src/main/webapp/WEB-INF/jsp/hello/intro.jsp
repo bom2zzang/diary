@@ -28,17 +28,29 @@
     <div class="item active">
       <img 
                src="//lbstatic.nu/assets/cover-photos/jana-wind-705e119f667546bff1e78ce73b37b76e.jpg" alt="1">
+                   <div class="carousel-caption">
+        <h3>다이어리</h3>
+        <p>We love the Big Apple!</p>
+      </div>
     </div>
 
     <div class="item">
       <img 
                src="//lbstatic.nu/assets/cover-photos/ashley-joncas-ca22c56a503956d8beb46ff804bb10d7.jpg" alt="2">
+                   <div class="carousel-caption">
+        <h3>일상을 기록하다.</h3>
+        <p>We love the Big Apple!</p>
+      </div>
     </div>
 
     <div class="item">
       <img 
-               src="//lbstatic.nu/assets/cover-photos/maddi-mcfarland-3d87c16fba91bc958daaf56e821a24af.jpg" alt="3">
-    </div>
+               src="//lbstatic.nu/assets/cover-photos/maddi-mcfarland-3d87c16fba91bc958daaf56e821a24af.jpg" alt="3"> 
+                  <div class="carousel-caption">
+        <h3>다이어</h3>
+        <p>We love the Big Apple!</p>
+      </div>
+  </div>
   </div>
 
   <!-- Left and right controls -->
@@ -50,6 +62,20 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
     <span class="sr-only">Next</span>
   </a>
+</div>
+
+<p>
+  <a class="btn btn-outline-warning btn-lg btn-block text-warning" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    How to use
+  </a>
+  <button class="btn btn-block btn-warning btn-lg" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Welcome
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
 </div>
 
 </body>

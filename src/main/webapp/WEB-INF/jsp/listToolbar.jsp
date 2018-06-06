@@ -3,7 +3,7 @@
     pageEncoding="UTF-8"
     trimDirectiveWhitespaces="true"%>
 <nav class="navbar navbar-light justify-content-between">
-  <a href='form' class='btn btn-sm text-white'  style="background-color: #FF0080;">추가</a>
+  <a href='form' class='btn btn-sm text-white'  style='background-color: #5e4a8a'>추가</a>
   <form class="form-inline" action="list">
     <input name="words"
            class="form-control form-control-sm mr-sm-2" type="search" 
@@ -12,4 +12,3 @@
             type="submit">Search</button>
   </form>
 </nav>
-

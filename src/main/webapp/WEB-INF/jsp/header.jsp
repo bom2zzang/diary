@@ -7,27 +7,26 @@
 
 <header>
 <form action="../auth/login" method='post'>
-<nav class="navbar navbar-fixed-top navbar-light bg-light">
+<nav class="navbar navbar-fixed-top navbar-light"  style='background-color: #5e4a8a'>
 
-<a class='navbar-brand' href='../diary/list2'>
+<a class='navbar-brand text-white' href='../diary/list2'>
  DIARY
 </a>
 
 
-
-<div class="float-right">
+<div>
 
 <c:choose>
     <c:when test="${sessionScope.loginUser != null}">
      <a href='../diary/${sessionScope.loginUser.m_no}' class="text-white">
      ${sessionScope.loginUser.name}</a>
         <a href="${contextPath}/app/auth/logout" 
-           class='btn btn-outline-dark btn-sm'>로그아웃</a>
+           class='btn btn-outline-light btn-sm'>로그아웃</a>
     </c:when>
 
     <c:otherwise>
     <!-- Button trigger modal -->
-<button type="button" class="btn btn-outline-dark btn-sm" 
+<button type="button" class="btn btn-outline-light btn-sm" 
  data-toggle="modal" 
 data-target="#loginModal">
   로그인

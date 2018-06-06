@@ -16,7 +16,9 @@
 <div class='container'>
 
 
-<h1>다이어리목록</h1>
+<div class="alert alert-warning" role="alert">
+  This is a warning alert—check it out!
+</div>
 
 <jsp:include page="../listToolbar.jsp"/>
 
